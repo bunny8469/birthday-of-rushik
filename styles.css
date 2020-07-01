@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&family=Roboto&family=Sacramento&display=swap');
+
+body{
+    margin:0;
+    background-color:#eee;
+    padding:0;
+}
+header{
+    background-color:#e84567;
+    height:12vh;
+    width:100%;
+    font-family:"Pacifico";
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:lighter;
+    font-size:175%;
+    margin-bottom:20px;
+}
+#pop-up{
+    height:60vh;
+    width:90vw;
+    background-color:#fff;
+    margin:auto;
+    vertical-align:center;
+    margin-top:18vh;
+    margin-bottom:30vh;
+}
+#pop-head{
+    font-family:"poppins";
+    background-color:#fff;
+    color:#e84567;
+    font-weight:600;
+    font-size:150%;
+    border-bottom:1px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:20%;
+}
+#pop-body{
+    font-family:"roboto";
+    height:80%;
+    width:100%;
+    padding-top:10%;
+    text-align:center;
+    font-size:150%;
+}
+#pop-input{
+    width:68px;
+    margin:0;
+    padding:10px;
+    height:30px;
+    border:1px solid #e84567;
+    font-family:"poppins";
+    font-size:80%;
+}
+#pop-btn{
+    font-family:"poppins";
+    text-transform:uppercase;
+    margin-top:5%;
+    letter-spacing:1px;
+    font-size:75%;
+    border:none;
+    height:50px;
+    background-color:#e84567;
+    color:#fff;
+    min-width:50%;
+    transition:0.6s;
+}
+#loop-container{
+    height:auto;
+    width:100%;
+    text-align:center;
+    margin:10px;
+    font-size:120%;
+    padding-top:20px;
+    font-family:"roboto";
+    padding-bottom:20px;
+}
+span{
+    color:#e84567;
+    margin-top:5px;
+}
